@@ -4,10 +4,10 @@
 
 module reg_mem (addr, data_in, wen, clk, data_out);
 
-   // parameter DATA_WIDTH = 4; //4 bit wide data
-  	parameter DATA_WIDTH = 8; //8 bit wide data
-    //parameter ADDR_BITS = 3; //8 Addresses
-    parameter ADDR_BITS = 5; //8 Addresses, this will be used as an exponent
+ 
+    parameter DATA_WIDTH = 8; //8 bit wide data
+
+    parameter ADDR_BITS = 5; //32 Addresses, this will be used as an exponent
   
 
     input [ADDR_BITS-1:0] addr;
